@@ -40,6 +40,9 @@ body {
 
 .three {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .four {
@@ -147,4 +150,24 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/*Quote Section*/
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    color: #1f2937;
+    font-style: italic;
+    text-align: center;
+}
+
+.quote-credit {
+    font-weight: bold;
+    text-align: end;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+
 }
