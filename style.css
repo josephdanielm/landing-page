@@ -11,12 +11,12 @@ body {
     padding: 0;
 }
 
-.container,
-.footer {
+.container{
     display: flex;
-    border-color: blue;
     flex: 1;
     justify-content: center;
+    height: 400px;
+    flex: 0 0 auto;
 }
 
 .container div {
@@ -29,8 +29,6 @@ body {
     color: #f9fAf8;
     flex-direction: column;
     align-items: center;
-    flex: 0 0 auto;
-    height: 400px;
     justify-content: space-between;
 }
 
@@ -95,3 +93,27 @@ body {
 .hero-subtext {
     margin: 0;
 }
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-subtext,
+.top-nav-links ul li {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-signup {
+    background-color: #3882f6;
+    color: #f9fAf8;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 25px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+}
+
+/*Information Section*/
