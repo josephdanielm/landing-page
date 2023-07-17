@@ -117,3 +117,7 @@ body {
 }
 
 /*Information Section*/
+
+.info-image {
+    width: 125px;
+}
