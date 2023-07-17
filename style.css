@@ -19,11 +19,16 @@ body {
     justify-content: center;
 }
 
+.container div {
+    width: 80%;
+}
 
 /*Sections*/
 .one {
     background-color: #1f2937;
     color: #f9fAf8;
+    flex-direction: column;
+    align-items: center;
 }
 
 .two {
@@ -47,9 +52,16 @@ body {
 
 .top-nav {
     display: flex;
+    height: 60px;
 }
 .test-logo {
     width: 150px;
+}
+
+.top-nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .top-nav-links ul {
