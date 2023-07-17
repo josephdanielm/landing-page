@@ -24,20 +24,24 @@ body {
     background-color: #1f2937;
     color: #f9fAf8;
 }
-/*
+
 .two {
-    
+
 }
-*/
+
 .three {
     background-color: #e5e7eb;
 }
-/*
+
 .four {
 
 }
-*/
+
 .footer {
     background-color: #1f2937;
 }
 /*        */
+
+.test-logo {
+    width: 150px;
+}
