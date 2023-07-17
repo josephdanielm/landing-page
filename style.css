@@ -16,6 +16,7 @@ body {
     display: flex;
     border-color: blue;
     flex: 1;
+    justify-content: center;
 }
 
 
@@ -40,8 +41,26 @@ body {
 .footer {
     background-color: #1f2937;
 }
-/*        */
 
+
+/*Top Nav*/
+
+.top-nav {
+    display: flex;
+}
 .test-logo {
     width: 150px;
 }
+
+.top-nav-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.place-holder-img {
+    width: 300px;
+}
+
